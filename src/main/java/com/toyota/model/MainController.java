@@ -19,12 +19,15 @@ public class MainController
         v.setModel(model);
 
         v.setAccelerate();
-       // System.out.println(v.getColor());
+        String start = v.start();
+        String stop = v.stop();
+        // System.out.println(v.getColor());
 
     }
+
         @Override
         public String toString() {
-        return "Car{" +
+        return + "Car{" +
                 "color='" + color + '\'' +
                 '}';
     }
